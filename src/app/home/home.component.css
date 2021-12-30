@@ -1,0 +1,63 @@
+.main-background{
+height: 100vh;
+background: linear-gradient(188deg,#d3c7df, #9FA7F0);
+background-size: 400% 400%;
+
+-webkit-animation: fadeInAnimation 7s ease infinite;
+-moz-animation: fadeInAnimation 7s ease infinite;
+animation: fadeInAnimation 7s ease infinite;
+
+
+@-webkit-keyframes fadeInAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes fadeInAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes fadeInAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+}
+
+/* .profile-img{
+  border-top-left-radius: 50% 50%;
+   border-top-right-radius: 50% 50%;
+   border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+} */
+
+.pro-img{
+
+
+    height: 200px;
+    object-fit: cover;
+    margin-top: 50%;
+}
+
+.bolg-disc{
+  font-family: "Source Code Pro", monospace;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+color: #000000 ;
+}
+.header{
+  font-family: "Source Code Pro", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+ color: #ffffff ;
+margin-top:30%
+}
+.icon{
+  max-width: 30px;
+
+}
