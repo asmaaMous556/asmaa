@@ -1,43 +1,49 @@
 .main-background{
 height: 100vh;
-background: linear-gradient(188deg,#d3c7df, #9FA7F0);
-background-size: 400% 400%;
+width:100%;
+/* background: linear-gradient(188deg,#d3c7df, #9FA7F0); */
 
--webkit-animation: fadeInAnimation 7s ease infinite;
--moz-animation: fadeInAnimation 7s ease infinite;
-animation: fadeInAnimation 7s ease infinite;
+transition:opacity 250ms ease-in-out;
+   opacity:1;
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: all .2s ease-in-out;
+}
+@keyframes colorChange {
+0%{
+  background: linear-gradient(
+    180deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+}
+    20% {
+        background: linear-gradient(
+    90deg,#e5d2b5 10%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+    }
+    40% {
+        background: linear-gradient(
+    30deg,#e5d2b5 15%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+    }
+    60% {
+        background: linear-gradient(
+    200deg,#e5d2b5 20%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+    }
+    80% {
+        background: linear-gradient(
+    250deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab);
+    }
+    100% {
+        background: linear-gradient(
+    360deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab);
+    }
+}
 
 
-@-webkit-keyframes fadeInAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes fadeInAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes fadeInAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-}
 
-/* .profile-img{
-  border-top-left-radius: 50% 50%;
-   border-top-right-radius: 50% 50%;
-   border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-} */
+
 
 .pro-img{
-
-
     height: 200px;
     object-fit: cover;
-    margin-top: 50%;
 }
 
 .bolg-disc{
@@ -55,9 +61,33 @@ color: #000000 ;
   font-size: 30px;
   line-height: 45px;
  color: #ffffff ;
-margin-top:30%
 }
 .icon{
   max-width: 30px;
 
+}
+
+.css-selector {
+  background: linear-gradient(181deg, #d3c7df, #9fa7f0, #9fe5f0);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 59s ease infinite;
+  -moz-animation: AnimationName 59s ease infinite;
+  animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
