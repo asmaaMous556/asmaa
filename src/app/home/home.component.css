@@ -8,32 +8,33 @@ transition:opacity 250ms ease-in-out;
     animation-name: colorChange;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    transition: all .2s ease-in-out;
+    animation-direction:alternate;
+    /* transition: all .2s ease-in-out; */
 }
 @keyframes colorChange {
 0%{
   background: linear-gradient(
-    180deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+    180deg,#d3c7df 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
 }
     20% {
         background: linear-gradient(
-    90deg,#e5d2b5 10%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+    90deg,#d3c7df 10%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
     }
     40% {
         background: linear-gradient(
-    30deg,#e5d2b5 15%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+    30deg,#d3c7df 15%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
     }
     60% {
         background: linear-gradient(
-    200deg,#e5d2b5 20%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
+    200deg,#d3c7df 20%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
     }
     80% {
         background: linear-gradient(
-    250deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab);
+    250deg,#d3c7df 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
     }
     100% {
         background: linear-gradient(
-    360deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab);
+    360deg,#d3c7df 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
     }
 }
 
@@ -48,6 +49,7 @@ transition:opacity 250ms ease-in-out;
 
 .bolg-disc{
   font-family: "Source Code Pro", monospace;
+  text-align: start;
  font-style: normal;
  font-weight: 400;
  font-size: 16px;
