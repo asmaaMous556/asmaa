@@ -8,33 +8,33 @@ transition:opacity 250ms ease-in-out;
     animation-name: colorChange;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-direction:alternate;
+
     /* transition: all .2s ease-in-out; */
 }
 @keyframes colorChange {
 0%{
   background: linear-gradient(
-    180deg,#d3c7df 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
+    180deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
 }
     20% {
         background: linear-gradient(
-    90deg,#d3c7df 10%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
+    90deg,#e5d2b5 10%,#ddb8d8 30%,#e4a9ab,#9FA7F0);
     }
     40% {
         background: linear-gradient(
-    30deg,#d3c7df 15%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df,#e5d2b5,#e5d2b5);
+    30deg,#e5d2b5 15%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
     }
     60% {
         background: linear-gradient(
-    200deg,#d3c7df 20%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df,#e5d2b5);
+    200deg,#e5d2b5 20%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
     }
     80% {
         background: linear-gradient(
-    250deg,#d3c7df 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
+    250deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
     }
     100% {
         background: linear-gradient(
-    360deg,#d3c7df 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
+    360deg,#e5d2b5 4%,#ddb8d8 30%,#e4a9ab,#9FA7F0,#d3c7df);
     }
 }
 
